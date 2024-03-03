@@ -1,0 +1,625 @@
+CRITICAL - 2024-03-02 06:27:59 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-02 06:51:37 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Libraries\MarvelServiceWrapper.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Libraries\\MarvelServiceWrapper.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\MarvelServiceWrapper')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\MarvelServiceWrapper')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 06:52:56 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Libraries\MarvelServiceWrapper.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Libraries\\MarvelServiceWrapper.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\MarvelServiceWrapper')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\MarvelServiceWrapper')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 06:52:57 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Libraries\MarvelServiceWrapper.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Libraries\\MarvelServiceWrapper.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\MarvelServiceWrapper')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\MarvelServiceWrapper')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 06:52:57 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Libraries\MarvelServiceWrapper.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Libraries\\MarvelServiceWrapper.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\MarvelServiceWrapper')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\MarvelServiceWrapper')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 06:52:58 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Libraries\MarvelServiceWrapper.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Libraries\\MarvelServiceWrapper.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\MarvelServiceWrapper')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\MarvelServiceWrapper')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 06:53:32 --> Error: Cannot access protected property Config\MarvelService::$privateKey
+in APPPATH\Libraries\MarvelServiceWrapper.php on line 15.
+ 1 APPPATH\Controllers\Home.php(10): App\Libraries\MarvelServiceWrapper->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 06:55:58 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 409
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 409')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97&hash=3b4588f8acdadb8e488505314fe792b0')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97&hash=3b4588f8acdadb8e488505314fe792b0', [])
+ 5 APPPATH\Libraries\MarvelServiceWrapper.php(26): CodeIgniter\HTTP\CURLRequest->get('characters?apiKey=6243051e2343536dae854ee457410a97&hash=3b4588f8acdadb8e488505314fe792b0')
+ 6 APPPATH\Controllers\Home.php(15): App\Libraries\MarvelServiceWrapper->characters()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 06:59:08 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 409
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 409')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://gateway.marvel.com/v1/public/characters?ts=1709362748&apiKey=6243051e2343536dae854ee457410a97&hash=63527ddcb44588b10c6769a6c89ca5f8')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://gateway.marvel.com/v1/public/characters?ts=1709362748&apiKey=6243051e2343536dae854ee457410a97&hash=63527ddcb44588b10c6769a6c89ca5f8', [])
+ 5 APPPATH\Libraries\MarvelServiceWrapper.php(26): CodeIgniter\HTTP\CURLRequest->get('characters?ts=1709362748&apiKey=6243051e2343536dae854ee457410a97&hash=63527ddcb44588b10c6769a6c89ca5f8')
+ 6 APPPATH\Controllers\Home.php(15): App\Libraries\MarvelServiceWrapper->characters()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 06:59:09 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 409
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 409')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://gateway.marvel.com/v1/public/characters?ts=1709362749&apiKey=6243051e2343536dae854ee457410a97&hash=82a3b5ac08e23a2fb8577cfeb703f6bd')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://gateway.marvel.com/v1/public/characters?ts=1709362749&apiKey=6243051e2343536dae854ee457410a97&hash=82a3b5ac08e23a2fb8577cfeb703f6bd', [])
+ 5 APPPATH\Libraries\MarvelServiceWrapper.php(26): CodeIgniter\HTTP\CURLRequest->get('characters?ts=1709362749&apiKey=6243051e2343536dae854ee457410a97&hash=82a3b5ac08e23a2fb8577cfeb703f6bd')
+ 6 APPPATH\Controllers\Home.php(15): App\Libraries\MarvelServiceWrapper->characters()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:02:25 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 409
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 409')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://gateway.marvel.com/v1/public/characters?ts=1709362944&apiKey=6243051e2343536dae854ee457410a97&hash=cb029342345241b14ea0a62d90f2802a')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://gateway.marvel.com/v1/public/characters?ts=1709362944&apiKey=6243051e2343536dae854ee457410a97&hash=cb029342345241b14ea0a62d90f2802a', [])
+ 5 APPPATH\Libraries\MarvelServiceWrapper.php(26): CodeIgniter\HTTP\CURLRequest->get('characters?ts=1709362944&apiKey=6243051e2343536dae854ee457410a97&hash=cb029342345241b14ea0a62d90f2802a')
+ 6 APPPATH\Controllers\Home.php(15): App\Libraries\MarvelServiceWrapper->characters()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:03:59 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 409
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 409')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97&ts=1709363039&hash=95eaa9acf9a3485738351e0759c77620')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97&ts=1709363039&hash=95eaa9acf9a3485738351e0759c77620', [])
+ 5 APPPATH\Libraries\MarvelServiceWrapper.php(27): CodeIgniter\HTTP\CURLRequest->get('characters?apiKey=6243051e2343536dae854ee457410a97&ts=1709363039&hash=95eaa9acf9a3485738351e0759c77620')
+ 6 APPPATH\Controllers\Home.php(15): App\Libraries\MarvelServiceWrapper->characters()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:05:08 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 409
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 409')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97', [])
+ 5 APPPATH\Libraries\MarvelServiceWrapper.php(27): CodeIgniter\HTTP\CURLRequest->get('characters?apiKey=6243051e2343536dae854ee457410a97')
+ 6 APPPATH\Controllers\Home.php(15): App\Libraries\MarvelServiceWrapper->characters()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:05:13 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 409
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 409')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97', [])
+ 5 APPPATH\Libraries\MarvelServiceWrapper.php(27): CodeIgniter\HTTP\CURLRequest->get('characters?apiKey=6243051e2343536dae854ee457410a97')
+ 6 APPPATH\Controllers\Home.php(15): App\Libraries\MarvelServiceWrapper->characters()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:07:31 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 409
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 409')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://gateway.marvel.com/v1/public/characters?apiKey=6243051e2343536dae854ee457410a97', [])
+ 5 APPPATH\Libraries\MarvelServiceWrapper.php(27): CodeIgniter\HTTP\CURLRequest->get('characters?apiKey=6243051e2343536dae854ee457410a97')
+ 6 APPPATH\Controllers\Home.php(15): App\Libraries\MarvelServiceWrapper->characters()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:23:13 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:23:15 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:23:16 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:14 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:16 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:16 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:16 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:17 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:17 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:17 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:17 --> Error: Call to a member function getCharacters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:54 --> Error: Call to a member function characters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:24:56 --> Error: Call to a member function characters() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:25:44 --> Error: Call to a member function characters() on null
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:26:34 --> Error: Call to a member function characters() on null
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:27:20 --> Error: Call to a member function characters() on null
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:27:49 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Libraries\MarvelServiceWrapper.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Libraries\\MarvelServiceWrapper.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\MarvelServiceWrapper')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\MarvelServiceWrapper')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:28:17 --> Error: Call to a member function characters() on null
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 07:29:21 --> Error: Call to a member function characters() on null
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:57:33 --> ArgumentCountError: print_r() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Marvel.php on line 18.
+ 1 APPPATH\Controllers\Marvel.php(18): print_r()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:58:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marvel_crud.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marvel_crud.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_crud', [], true)
+ 3 APPPATH\Controllers\Marvel.php(17): view('marvel_crud', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:58:48 --> ErrorException: Undefined variable $title
+in APPPATH\Views\marvel_crud.php on line 11.
+ 1 APPPATH\Views\marvel_crud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_crud.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_crud.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_crud', [], true)
+ 5 APPPATH\Controllers\Marvel.php(17): view('marvel_crud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:59:26 --> ErrorException: Undefined variable $title
+in APPPATH\Views\marvel_crud.php on line 37.
+ 1 APPPATH\Views\marvel_crud.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_crud.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_crud.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_crud', [], true)
+ 5 APPPATH\Controllers\Marvel.php(17): view('marvel_crud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:54:40 --> ErrorException: Undefined variable $content
+in APPPATH\Views\layouts\default.php on line 40.
+ 1 APPPATH\Views\layouts\default.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\layouts\\default.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_crud', [], true)
+ 6 APPPATH\Controllers\Marvel.php(17): view('marvel_crud', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 18:19:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "movie_create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('movie_create.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('movie_create', [], true)
+ 3 APPPATH\Controllers\Marvel.php(56): view('movie_create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 18:21:41 --> Error: Call to undefined function set_value()
+in APPPATH\Views\marvel_create.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_create', [], true)
+ 4 APPPATH\Controllers\Marvel.php(28): view('marvel_create')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 18:21:42 --> Error: Call to undefined function set_value()
+in APPPATH\Views\marvel_create.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_create', [], true)
+ 4 APPPATH\Controllers\Marvel.php(28): view('marvel_create')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 18:22:50 --> Error: Call to undefined function set_value()
+in APPPATH\Views\marvel_create.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_create', [], true)
+ 4 APPPATH\Controllers\Marvel.php(28): view('marvel_create')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 18:50:21 --> TypeError: CodeIgniter\Validation\StrictRules\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php on line 327
+in SYSTEMPATH\Validation\StrictRules\Rules.php on line 199.
+ 1 SYSTEMPATH\Validation\Validation.php(327): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', null)
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Marvel.php(40): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 18:52:32 --> TypeError: CodeIgniter\Validation\StrictRules\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php on line 327
+in SYSTEMPATH\Validation\StrictRules\Rules.php on line 199.
+ 1 SYSTEMPATH\Validation\Validation.php(327): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', null)
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Marvel.php(41): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 18:54:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4TestCovalto\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', Array, NULL, 'name')
+#6 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', Array, Array)
+#7 C:\xampp\htdocs\CI4TestCovalto\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CI4TestCovalto\app\Controllers\Marvel.php(41): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(941): App\Controllers\Marvel->create()
+#10 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+#11 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CI4TestCovalto\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CI4TestCovalto\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', Array, NULL, 'name')
+#5 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', Array, Array)
+#6 C:\xampp\htdocs\CI4TestCovalto\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CI4TestCovalto\app\Controllers\Marvel.php(41): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(941): App\Controllers\Marvel->create()
+#9 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+#10 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4TestCovalto\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-02 18:54:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `characters`
+WHERE `name` = :name:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', [...], null, 'name')
+ 5 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', [...], [...])
+ 6 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Marvel.php(41): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 18:59:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'marvel', 3306, '', 0)
+#1 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4TestCovalto\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', Array, NULL, 'name')
+#6 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', Array, Array)
+#7 C:\xampp\htdocs\CI4TestCovalto\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CI4TestCovalto\app\Controllers\Marvel.php(41): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(941): App\Controllers\Marvel->create()
+#10 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+#11 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CI4TestCovalto\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CI4TestCovalto\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', Array, NULL, 'name')
+#5 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', Array, Array)
+#6 C:\xampp\htdocs\CI4TestCovalto\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CI4TestCovalto\app\Controllers\Marvel.php(41): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(941): App\Controllers\Marvel->create()
+#9 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+#10 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4TestCovalto\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-02 18:59:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `characters`
+WHERE `name` = :name:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', [...], null, 'name')
+ 5 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', [...], [...])
+ 6 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Marvel.php(41): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 18:59:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'marvel', 3306, '', 0)
+#1 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI4TestCovalto\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', Array, NULL, 'name')
+#6 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', Array, Array)
+#7 C:\xampp\htdocs\CI4TestCovalto\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CI4TestCovalto\app\Controllers\Marvel.php(41): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(941): App\Controllers\Marvel->create()
+#10 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+#11 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CI4TestCovalto\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\CI4TestCovalto\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CI4TestCovalto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CI4TestCovalto\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', Array, NULL, 'name')
+#5 C:\xampp\htdocs\CI4TestCovalto\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', Array, Array)
+#6 C:\xampp\htdocs\CI4TestCovalto\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CI4TestCovalto\app\Controllers\Marvel.php(41): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(941): App\Controllers\Marvel->create()
+#9 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+#10 C:\xampp\htdocs\CI4TestCovalto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4TestCovalto\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-02 18:59:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `characters`
+WHERE `name` = :name:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('asd', 'name', [...], null, 'name')
+ 5 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('name', 'name', 'asd', [...], [...])
+ 6 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Marvel.php(41): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 19:02:47 --> CodeIgniter\Validation\Exceptions\ValidationException: "validate_image_url" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validate_image_url')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('image', 'image', 'sd', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Marvel.php(41): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 19:02:49 --> CodeIgniter\Validation\Exceptions\ValidationException: "validate_image_url" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validate_image_url')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('image', 'image', 'sd', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Marvel.php(41): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 19:12:58 --> CodeIgniter\Validation\Exceptions\ValidationException: "validate_image_url" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validate_image_url')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('image', 'image', 'ssdf', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Marvel.php(41): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 19:14:28 --> CodeIgniter\Validation\Exceptions\ValidationException: "image" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('image')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('image', 'image', 'sdfs', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Marvel.php(41): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 19:34:33 --> Error: Class "Config\ValidImageRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 715.
+ 1 SYSTEMPATH\Validation\Validation.php(121): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Config\Services.php(818): CodeIgniter\Validation\Validation->__construct(Object(Config\Validation), Object(CodeIgniter\View\View))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::validation(Object(Config\Validation), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 5 SYSTEMPATH\Config\Services.php(813): CodeIgniter\Config\BaseService::getSharedInstance('validation', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::validation()
+ 7 SYSTEMPATH\Controller.php(175): CodeIgniter\Config\BaseService::__callStatic('validation', [])
+ 8 SYSTEMPATH\Controller.php(150): CodeIgniter\Controller->setValidator([...], [...])
+ 9 APPPATH\Controllers\Marvel.php(47): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->create()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 20:01:58 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\marvel_edit.php on line 32.
+ 1 APPPATH\Views\marvel_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_edit', [], true)
+ 5 APPPATH\Controllers\Marvel.php(84): view('marvel_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 20:02:48 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\marvel_edit.php on line 22.
+ 1 APPPATH\Views\marvel_edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_edit', [], true)
+ 5 APPPATH\Controllers\Marvel.php(84): view('marvel_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 20:02:51 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\marvel_edit.php on line 22.
+ 1 APPPATH\Views\marvel_edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_edit', [], true)
+ 5 APPPATH\Controllers\Marvel.php(84): view('marvel_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 20:03:01 --> ErrorException: Undefined array key "descrition"
+in APPPATH\Views\marvel_edit.php on line 37.
+ 1 APPPATH\Views\marvel_edit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descrition"', 'C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_edit.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CI4TestCovalto\\app\\Views\\marvel_edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('marvel_edit', [], true)
+ 5 APPPATH\Controllers\Marvel.php(84): view('marvel_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Marvel->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marvel))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,15 @@
+.container-image {
+    background: black;
+}
+
+.header-image{
+    width: 300px;
+    top: 8px;
+    position: relative;
+}
+
+.img-content {
+    width: 100px !important;
+    height: 100px !important;
+    image-rendering: -webkit-optimize-contrast;
+}
